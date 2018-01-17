@@ -5,6 +5,7 @@
 npm install react-router-dom --save-dev
 
 #### Creating Router
+```
 import {
   BrowserRouter as Router,
   Route,
@@ -21,15 +22,19 @@ import {
 
 </div>
 </Router>
+```
 
 #### Creating Components
+```
 const Home = () => (
   <div>
     <h2>Home</h2>
   </div>
 )
+```
 
 #### Creating Links
+```
 const Header = () => (
   <div>
     <ul>
@@ -37,3 +42,4 @@ const Header = () => (
     </ul>
   </div>
 )
+```
